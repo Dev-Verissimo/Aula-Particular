@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    font-family: 'Roboto';
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    word-spacing: 5px;
+}
+.orange{
+    color: orange;
+}
+
+h1,p,h2{
+    padding: 10px 0;
+}
+
+img{
+    padding: 1-0px;
+}
+body > img:last-child{
+    transform: scaleX(-1)
+}
+
+ul img:first-child{
+    width: 80%;
+}
+li{
+    padding: 20px;
+}
+
